@@ -1,0 +1,4 @@
+# Temperrature display
+name=TEMP
+delay=300
+
