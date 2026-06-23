@@ -1,6 +1,9 @@
 # Temperrature display
 name=TEMP
 delay=300
+
+# All colors specified as (r,g,b)
+
 BackgroundColor=(0,0,100)
 Text1Color=(255,255,255)
 Text2Color=(255,255,0)
