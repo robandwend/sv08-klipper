@@ -1,5 +1,8 @@
-# Temperrature display
+# Temperature display
 name=TEMP
+# repeat specifies how many times the data should be updated, before auto moving on to the next display
+repeat=4
+# delay specified how long to wait between each time collecting a fresh set of data
 delay=300
 
 # All colors specified as (r,g,b)
@@ -21,3 +24,6 @@ url2=/printer/objects/query?extruder"
 # url
 path1=result.status.extruder.temperature
 path2=result.status.extruder.target
+# The type parameter specifies how to display the information
+# Currently this is one of "TEXT","GRAPH"
+type1=GRAPH
