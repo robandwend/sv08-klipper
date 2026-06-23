@@ -4,7 +4,7 @@ delay=300
 
 # All colors specified as (r,g,b)
 
-BackgroundColor=(0,20,0)
+BackgroundColor=(0,50,0)
 Text1Color=(255,255,255)
 Text2Color=(255,255,0)
 Chart1Color=(0,255,0)
