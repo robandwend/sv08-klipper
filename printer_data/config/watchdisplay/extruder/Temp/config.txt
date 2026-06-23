@@ -6,3 +6,15 @@ Text1Color=(255,255,255)
 Text2Color=(255,255,0)
 Chart1Color=(0,255,0)
 Chart2Color=(255,0,0)
+
+# The url parameters specify a URL that will return required information from moonraker
+# To find information you can ask an AI something like
+#   "I have a klipper based 3d printer installed at ip 192.168.1.37. I wish to create a curl command to 
+#    return the temperature of the hotend using the built in moonraker/klipper api."
+# Extract the string after the http://...:7125
+url1=/printer/objects/query?extruder"
+url2=/printer/objects/query?extruder"
+# The jsonpath parameter specifies how to extract the required field from the json returned by the above
+# url
+path1=result.status.extruder.temperature
+path2=result.status.extruder.target
